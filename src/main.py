@@ -188,7 +188,7 @@ def write_comment(obj: Union[Comment, Submission], is_low_effort: bool = False):
     else:
         pasta = PASTA
     source_tag = (
-        "[^(fmhall)](https://www.reddit.com/user/fmhall) ^| [^(github)]({}) ^| [^(chill)]({})\n".format(
+        "^([fmhall](https://www.reddit.com/user/fmhall) | [github]({}) | [chill]({}))\n".format(
             "https://github.com/fmhall/Petrosian-Bot",
             "https://www.youtube.com/channel/UCqGhULGgnf6IbY5JXWuVVtQ/live"
         )
